@@ -10,8 +10,8 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing..'
-                sh('javac /src/App.java')
-                sh('java /bin/App')
+                sh('javac App.java')
+                sh('java App')
             }
         }
         stage('Deploy') {
