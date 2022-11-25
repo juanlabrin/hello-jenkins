@@ -4,10 +4,10 @@ This little java app is only for the purpose to test the Jenkins CI/CD server in
 
 ## Folder Structure and Files
 
-The workspace contains two folders by default, where:
+The workspace contains two folders by default, and a Pipeline Jenkinsfile where:
 
 - `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `Jenkinsfile`: A Jenkinsfile is a text file that contains the definition of a Jenkins Pipeline and is checked into source control.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by defaul
+Meanwhile, the compiled output files will be generated in the `bin` folder by default
 
