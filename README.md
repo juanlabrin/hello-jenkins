@@ -1,4 +1,4 @@
-## Small Java App for testing Jenkins Installation
+## Small Java App for Testing Jenkins Installation
 
 This little java app is only for the purpose to test the Jenkins CI/CD server installation.
 
